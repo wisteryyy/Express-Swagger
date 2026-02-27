@@ -1,5 +1,5 @@
 import jwt from 'jsonwebtoken';
-import { JWT_CONFIG } from '../config/jwt.config';
+import { JWT_CONFIG } from '../config/jwt';
 
 export interface JwtPayload {
   userId: number;

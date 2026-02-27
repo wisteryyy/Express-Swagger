@@ -3,7 +3,7 @@ import express, { Request, Response, NextFunction } from 'express';
 import swaggerUi from 'swagger-ui-express';
 import swaggerSpec from './config/swagger';
 
-import authRouter    from './routes/auth.routes';
+import authRouter    from './routes/auth';
 import usersRouter   from './routes/users';
 import productsRouter from './routes/products';
 import keysRouter    from './routes/keys';

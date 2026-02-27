@@ -3,7 +3,7 @@ import bcrypt from 'bcryptjs';
 import { eq } from 'drizzle-orm';
 import db from '../db';
 import { users, type NewUser } from '../db/schema';
-import { generateToken } from '../utils/jwt.util';
+import { generateToken } from '../utils/jwt';
 
 // Регистрация
 export const register = async (req: Request, res: Response): Promise<void> => {
